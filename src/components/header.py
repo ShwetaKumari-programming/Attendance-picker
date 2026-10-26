@@ -1,8 +1,8 @@
 import streamlit as st
 
+
 def header_home():
 
-    
     logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
     
     st.markdown(f"""
@@ -25,9 +25,3 @@ def header_dashboard():
         </div>   
                 
                 """, unsafe_allow_html=True)
-
-
-
-
-
-
