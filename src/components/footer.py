@@ -14,12 +14,9 @@ def footer_home():
 
 
 def footer_dashboard():
-    logo_url = "https://i.ibb.co/4r5X1FY/ShwetaKumari.png"
-    
-    st.markdown(f"""
+    st.markdown("""
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; items-align:center">
-        <p style="font-weight:bold; color:black;"> Created with ❤️ by </p>  
-        <img src='{logo_url}' style='max-height:25px' />
+        <p style="font-weight:bold; color:black;">Created by Shweta Kumari</p>
         </div>
                 
                 """, unsafe_allow_html=True)
